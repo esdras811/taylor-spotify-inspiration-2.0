@@ -1,6 +1,9 @@
-As 12 Eras da Taylor Swift: A História do Fenômeno Musical! 🎸❤️‍🔥
+As 12 Eras da Taylor Swift: A História do Fenômeno Musical!❤️‍🔥🦋 
+---
+
 
  ##  Este projeto é um Quiz Interativo inspirado nas 12 Eras musicais de Taylor Swift. Criado para unir design moderno, interatividade e lógica de programação, ele simula o layout de um perfil de artista no Spotify para descobrir: Em qual Era você vive? 🦋 , 🫶 , 🫶  , 🧣, 🕶️, 🐍 , 💌 , 🌧️ , 🥂 , 🌙 , 🪶,❤️‍🔥
+ 
   Sobre o Projeto:
   
 O objetivo principal é criar uma experiência imersiva e nostálgica para os fãs, enquanto demonstra habilidades essenciais de desenvolvimento web front-end.

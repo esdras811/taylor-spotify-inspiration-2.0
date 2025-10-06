@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Eras da Taylor Swift</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    
+    <header class="spotify-header">
+        <div class="header-bg-image img/cabecalho.jpeg"></div> 
+        </header>
+        
+        <div class="logo-container">
+            <img src="img/logo-esdras.png" alt="Logo Esdras" class="spotify-logo">
+        </div>
+        <h1 class="artist-title" style="font-size: 3em;">
+            Qual é a Sua Era?
+        </h1>
+    </header>
+    
+    <a href="index.html" class="back-to-home-link">
+        <button class="spotify-button-secondary back-button">
+            ← Voltar para a Página Principal
+        </button>
+    </a>
+    <main class="eras-container">
+        <h2 class="section-title">Descubra sua Era Taylor Swift!</h2>
+        
+        <div id="quiz-container">
+            
+            <div id="question-card" class="quiz-card">
+                <p id="question-text" class="question-text">Clique em Iniciar para começar o quiz!</p>
+                <div id="answer-buttons" class="answer-buttons">
+                    </div>
+            </div>
+
+            <button id="start-button" class="spotify-button-main">
+                Iniciar Quiz
+            </button>
+
+            <div id="result-screen" class="result-screen hidden">
+                <h3>Sua Era É:</h3>
+                <h2 id="result-era"></h2>
+                <p id="result-description"></p>
+                <button id="restart-button" class="spotify-button-secondary">
+                    Fazer Novamente
+                </button>
+            </div>
+        </div>
+        
+<footer class="main-footer">
+        <div class="footer-content">
+            <p class="copyright-text">
+                Direitos autorais das obras, músicas e identidade visual reservados a Taylor Swift e Taylor Nation LLC. Este é um projeto de homenagem.
+            </p>
+
+            <div class="social-links">
+                <p>Desenvolvido por Esdras:</p>
+                <a href="https://www.linkedin.com/in/esdras-israell/" target="_blank" class="social-icon">LinkedIn</a>
+                <span class="separator">|</span>
+                <a href="https://github.com/esdras811" target="_blank" class="social-icon">GitHub</a>
+            </div>
+        </div>
+    </footer>
+    </main>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
